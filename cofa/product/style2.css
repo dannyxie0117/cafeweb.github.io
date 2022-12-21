@@ -1,0 +1,547 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+  }
+/* nav區塊 */
+nav{
+    background: black;
+    width: 100%;
+    height: 80px;
+    
+    
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+    position: absolute;
+    top: 30px;
+    right: 70px;
+    
+}
+.menubtn{
+    float: right;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    display: none;
+    color:rgb(204, 148, 28) ;
+}
+nav ul .listitem{
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+}
+nav ul li a{
+    padding:10px 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    color: rgb(204, 148, 28);
+    
+}
+nav .logo{
+    position: relative;
+    top: 30px;
+    margin-left: 20px;
+    color: rgb(204, 148, 28);
+    opacity: 0;
+    
+}
+#cbk{
+    display:none;
+}
+a.act,a:hover{
+    background: rgb(152, 181, 190);
+    color: aliceblue;
+    transition: .5s;
+}
+nav ul ul {
+    position: absolute;
+    top:40px;
+    display: none;
+}
+nav ul li:hover>ul{
+    display: block;
+}
+.dropdown{
+    background:black;
+}
+.dropdown li{
+    list-style: none;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.member{
+    position: absolute;
+    
+    right: -35px;
+}
+.news{
+    position: absolute;
+    
+    right: 170px;
+}
+
+/* main區塊 */
+.sbg{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(0, 0, 0),rgb(151, 117, 3));
+    z-index: -1;
+    position: absolute;
+    left: -100%;
+    padding-bottom: 200px;
+}
+.mainpic h1{
+   
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-size: 60px;
+    color: rgb(204, 148, 28);
+    text-shadow: 1px 1px 2px pink;
+
+}
+.mainpic #mpc{
+    position: absolute;
+    right: -100%;
+    top: 110px;
+    width: 800px;
+    padding-right: 100px;
+}
+.pw{
+    width: 1000px;
+    height: 500px;
+    color: antiquewhite;
+    position: absolute;
+    top: 400px;
+    left: 0%;
+    font-size: 30px;
+    margin-left: 100px;
+    opacity: 0;
+}
+
+/* slider區塊 */
+
+
+.slidersec{
+    
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 1000px;
+    overflow: hidden;
+    background: linear-gradient(to right,rgb(0, 0, 0),rgb(151, 117, 3));
+    padding-bottom: 500px;
+
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+   
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 1000px;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .sign{
+    color: rgb(204, 148, 28);
+    font-size:50px ;
+    text-shadow: 1px 1px 2px pink;
+    z-index: 3;
+    position: absolute;
+    left: 100px;
+  }
+  #slidew{
+    position: absolute;
+    top: 940px;
+    
+  }
+/* 跑馬燈區塊 */
+ 
+
+.marquee{
+    position: absolute;
+    left:470px;
+    top: 70px;
+    width: 60%;
+    
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+.marquee div {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: animate 25s linear infinite;
+    padding-left: 100%;
+    display: inline-block;
+    color: antiquewhite;
+}
+#megaphone{
+    position: absolute;
+    left: 400px;
+    top: 60px;
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+@keyframes animate{
+    100%{
+        transform: translate(-100%,0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* card區塊 */
+  .cardsec{
+    background: linear-gradient(to right,rgb(0, 0, 0),rgb(151, 117, 3));
+    position: absolute;
+    top: 1600px;
+    width: 100%;
+    padding-bottom: 200px;
+  }
+  .cardw{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 35px;
+    color: rgb(236, 60, 95);
+    text-shadow: 1px 1px 2px pink;
+  }
+  .areacontrol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    background: rgb(241, 179, 85);
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px rgb(77, 76, 76);
+    transition: all  .25s  ease-in;
+  }
+  .card:hover{
+    transform:translateY(-10px);
+  }
+  .cardpic{
+    width: 380px;
+    height: 350px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+ .cardmw{
+    text-align: center;
+    color: rgb(10, 72, 243);
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgb(78, 76, 77);
+ }
+ .cardsec p{
+    margin: 10px;
+    font-weight: 700;
+    
+ }
+ /* footer區塊 */
+ .foot{
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 3850px;
+ }
+ .foot .notice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+ }
+.foot .notice .nob{
+    margin-top: 20px ;
+    margin-right: 40px;
+    padding-right: 20px;
+  
+    width: 200px;
+    height: 100px;
+    border-right: 3px solid rgb(197, 122, 25);
+}
+.foot .notice .nob a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 600;
+}
+.foot .notice .nob a:hover{
+    background: none;
+}
+.foot .notice .nob li{
+    list-style: none;
+}
+.footsign{
+    color: rgb(204, 148, 28);
+    font-size: 25px;
+}
+.tell{
+    color: antiquewhite;
+}
+.copyright{
+    text-align: center;
+}
+.follow{
+    display: flex;
+    align-items: center;
+}
+.follow .icon a{
+    margin: 10px;
+    font-size: 40px;
+}
+.follow .icon a:hover{
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* rwd開始 */
+body.mobile .menubtn{
+    display: block;
+    
+}
+body.mobile  nav ul .listitem{
+    display: block;
+    /* flex-direction: column;
+    justify-content: center; */
+    
+}
+body.mobile .navlist{
+    position: fixed;
+    top:70px;
+    left: -1000%;
+    background:black;
+    width: 100%;
+    height: 100%;
+    transition: all 0.8s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+body.mobile .navlist .list{
+    position: absolute;
+    top:50%;
+    left:40%;
+    transform: translate(-50%, -50%);
+    
+}
+body.mobile .navlist .list .dropdown{
+    background-color: antiquewhite;
+    position: absolute;
+    left: -5px;
+    width: 100px;
+}
+body.mobile .navlist .list .member{
+    position: absolute;
+    top: 270px;
+    border-radius: 10px;
+}
+body.mobile .navlist .list .news{
+    position: absolute;
+    top: 110px;
+    border-radius: 10px;
+}
+
+body.mobile #cbk:checked~.navbar .navlist{
+    left: 0;
+    z-index: 50;
+}
+/* main區塊 */
+body.mobile .mainpic h1{
+    
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 30px;
+    color: rgb(204, 148, 28);
+    text-shadow: 1px 1px 2px pink;
+
+}
+body.mobile .mainpic #mpc{
+    display: none;
+}
+body.mobile .mainpic .pw{
+    width: 100%;
+    height: 200px;
+    color: antiquewhite;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    font-size: 15px;
+    
+}
+body.mobile .slidersec{
+    
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    overflow: hidden;
+    background: linear-gradient(to right,rgb(0, 0, 0),rgb(151, 117, 3));
+    padding-bottom: 500px;
+}
+body.mobile #slidew{
+    display: none;
+  }
+body.mobile .swiper {
+    width: 90%;
+    height: 100%;
+  }
+body.mobile .swiper-slide img {
+    display: block;
+    width: 80%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+body.mobile .marquee{
+    display: none;
+}
+body.mobile #megaphone{
+    display: none;
+}
+
+
+
+body.mobile .cardsec{
+    background: linear-gradient(to right,rgb(0, 0, 0),rgb(151, 117, 3));
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    padding-bottom: 200px;
+  }
+body.mobile #month{
+    font-size: 30px;
+    margin-top: 100px;
+}
+body.mobile .cardw{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    color: rgb(236, 60, 95);
+    text-shadow: 1px 1px 2px pink;
+  }
+body.mobile .areacontrol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+body.mobile .card{
+    background: rgb(241, 179, 85);
+    width: 80%;
+    height: 500px;
+    margin: 20px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px rgb(77, 76, 76);
+    transition: all  .25s  ease-in;
+  }
+body.mobile .cardpic{
+    width: 95%;
+    height: 350px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+body.mobile .foot{
+ display: none;
+ }

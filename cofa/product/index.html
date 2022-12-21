@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>享受．品味</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header區塊 -->
+    <header>
+        <!-- nav區塊start -->
+        <nav>
+            <input type="checkbox" id="cbk">
+            <h1 class="logo">ENJOYLIFE</h1>
+            <div class="navbar">
+                <ul class="navlist">
+                    <div class="list">
+                    <li class="listitem"><a href="#" class="act">主頁</a></li>
+                    <li class="listitem"><a href="#">最新消息 <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+                        <ul class="news dropdown">
+                            <li><a href="#">歡慶聖誕</a></li>
+                            <li><a href="#">好康加碼</a></li>
+                            <li><a href="#">新年抽獎</a></li>
+                        </ul>
+                    </li>
+                    <li class="listitem"><a href="#">導覽 <i class="fa-sharp fa-solid fa-caret-down"></i></a></li>
+                    <li class="listitem"><a href="#">會員專區 <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+                        <ul class="member dropdown">
+                            <li><a href="#">會員好康</a></li>
+                            <li><a href="#">登入會員</a></li>
+                            <li><a href="#">註冊帳號</a></li>
+                        </ul>
+                        
+                    </li>
+                    </div>
+                </ul>
+                <label for="cbk" class="menubtn"><i class="fa-solid fa-bars"></i></label>
+                
+            </div>
+        </nav>
+        <!-- nav區塊end -->
+
+    </header>
+    <!-- main區塊 -->
+    <main>
+        <section class="mainpic">
+            <div class="sbg"></div>
+            <h1 id="headline"></h1>
+            <img src="./images/coffee1.png" id="mpc">
+            <p class="pw">雖然你不能左右天氣...<br />但是；你可以改變心情...<br />
+               雖然你不能選擇容貌...<br />但是；你可以展現笑容...<br />
+               雖然；你不能預知明天...<br />但是；你可以善用今天...<br />
+               只有創造，才是真正的享受<br/>
+               
+                
+                 </p>
+        </section>
+
+
+
+        
+
+
+        <h1 class="sign" id="slidew">尋找．旅行的意義</h1>
+        <section class="slidersec">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./images/view1.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/view6.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/view3.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/view4.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/view5.jpg" alt=""></div>
+                  
+                  
+                </div>
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+        </section>
+
+
+
+        <section class="cardsec">
+            <h2 class="sign" id="month">本月主打:</h2>
+            <!-- 跑馬燈 -->
+            <i class="bi bi-megaphone" id="megaphone"></i>
+            <div class="marquee">
+                
+                <div>【聖誕期間直播限定】大象杯snoopy聯名款
+                    寒冷中的暖心寶
+                    【御衣坊】卡娜赫拉綜合暖暖包10片-5入
+                    精選禮盒系列
+                    【交換禮物推薦】THE BODY SHOP XM 多款可任選原裝禮盒
+                    12月限定組合
+                    THE BODY SHOP 辣木籽滋養霜 200ml*1 贈辣木籽沐浴膠 60ml*3
+                    1/2 Princess 復古全包式拉鍊長夾-3色(A0046-1)【廠商直送】
+                    
+                    </div>
+            </div>
+            <!-- 跑馬燈end -->
+            <h3 class="cardw">美食饗宴</h3>
+            <div class="foodarea areacontrol">
+                <div class="fcard card">
+                    <img src="./images/food1.jpg" class="cardpic">
+                    <h4 class="cardmw">北方麵食</h4>
+                    <p>將鮮美的肉湯在嘴裡引爆可以說是將北方麵食、吃肉、喝湯進行三位一體整合</p>
+                </div>
+                <div class="fcard card" >
+                    <img src="./images/food2.jpg"  class="cardpic">
+                    <h4 class="cardmw">蛋黃酥</h4>
+                    <p>酥皮的焦香很特別、很吸引人，切開剖面可以看到皮薄餡多，尤其蛋黃超大顆，咬下去時那焦香酥皮讓人滿足，裡頭不甜的豆沙餡綿細且不膩口</p>
+                </div>
+                <div class="fcard card">
+                    <img src="./images/food3.jpg" class="cardpic">
+                    <h4 class="cardmw">烏魚子</h4>
+                    <p>野生烏魚子較長，厚度較薄且結實，口感上野生烏魚子較黏牙且帶有自然的香氣</p>
+                </div>
+            </div>
+            <h3 class="cardw">精選活動</h3>
+            <div class="actarea areacontrol">
+                <div class="actcard card">
+                    <img src="./images/act1.jpg" alt="" class="cardpic">
+                    <h4 class="cardmw">與海浪共舞</h4>
+                    <p>在浪上的速度感，風吹過你臉頰的感覺，還有你眼前的景象，都不一樣，所以那是各種不同又全新的刺激綜合的感受，沒有人可以準確的形容。</p>
+                </div>
+                <div class="actcard card">
+                    <img src="./images/act2.jpg" alt="" class="cardpic">
+                    <h4 class="cardmw">熱血水槍戰</h4>
+                    <p>聽說現在炎熱，流行打水仗，所以大傢一起拿起水槍，組上隊伍。開戰了</p>
+                </div>
+                <div class="actcard card">
+                    <img src="./images/act3.jpg" alt="" class="cardpic">
+                    <h4 class="cardmw">成為畢卡索</h4>
+                    <p>藝術與人文領域教學理念目標為軸心，以「色彩」與「版畫」為手段，設計體驗式學習活動， ... 讓學生依個人感受用語言形容線條的變化，自由創造</p>
+                </div>
+            </div>
+            <h3 class="cardw">風景悠遊</h3>
+            <div class="viewarea areacontrol">
+                <div class="vcard card">
+                    <img src="./images/taiwan1.jpg" alt="" class="cardpic">
+                    <h4 class="cardmw">台東</h4>
+                    <p>位於臺東縣成功鎮東北方的三仙台，全島面積約22公頃，最高點海拔約77公尺。地質屬於都巒山集塊岩</p>
+                </div>
+                <div class="vcard card">
+                    <img src="./images/taiwan2.jpg" alt="" class="cardpic">
+                    <h4 class="cardmw">嘉義</h4>
+                    <p>來阿里山小笠原山觀賞日出之美，步行幽靜小路，半途中小憇片刻，來上一杯熱茶，悠悠品茶，獨享於森林之中厚實又溫暖的餐點；吹吹山風</p>
+                </div>
+                <div class="vcard card">
+                    <img src="./images/taiwan3.jpg" alt=""class="cardpic">
+                    <h4 class="cardmw">屏東</h4>
+                    <p>小琉球熱門景點好玩推薦 · 花瓶岩海灘 · 鹿粼梅花鹿園區 · 小琉球海洋館 · 小琉球杉福潮間帶 · 望海亭無敵海景</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- !!!!參考一下https://www.liontravel.com/category/zh-tw/index //RWD參考: https://www.besttour.com.tw/e_web/country?v=11 -->
+    </main>
+    <!-- footer區塊 -->
+    <footer>
+        <section class="foot">
+            <div class="notice">
+            <div class="about nob">
+                <h3 class="footsign">關於</h3>
+                <ul>
+                    <li><a href="#">門市諮詢</a></li>
+                    <li><a href="#">人力需求</a></li>
+                    <li><a href="#">常見問題</a></li>
+                </ul>
+            </div>
+            <div class="safe nob">
+                <h3 class="footsign">安全</h3>
+                <ul>
+                    <li><a href="#">交易安全政策</a></li>
+                    <li><a href="#">隱私權保護政策</a></li>
+                    
+                </ul>
+            </div>
+            <div class="phone nob">
+                <h3 class="footsign">聯絡我們</h3>
+                <h3 class="tell">服務專線:02-1234567</h3>
+                <h3 class="tell">FAX：（04）2322-0513</h3>
+               
+            </div>
+            <div class="follow nob">
+                <div class="icon">
+                <a href="#"><i class="fa-brands fa-line"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                
+               
+              
+                </div>
+
+            </div>
+            </div>
+            
+            
+
+            <div class="copyright">
+                <h3 class="footsign">Copyright© ENJOYLIFE SERVICE CO., LTD. All Rights Reserved</h3>
+            </div>
+
+        </section>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    function windowSize() {
+    if ($(window).width() < 768) {
+        $('body').addClass('mobile').removeClass('desktop');
+    } else {
+        $('body').addClass('desktop').removeClass('mobile');
+        $('#holder').html('Desktop Size');
+    }
+};
+$(window).resize(function() {
+    windowSize();
+});
+windowSize();
+
+
+
+    var w=0
+    var text='享受．品味每一刻'
+    function typing(){
+        if(w<text.length){
+            document.querySelector('#headline').innerHTML+=text.charAt(w);
+            w++;
+            setTimeout(typing,350);
+        }
+    }
+    typing();
+
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+      });
+
+ 
+   
+   
+
+
+
+
+
+    const sbg=document.querySelector(".sbg");
+    const mpc=document.querySelector("#mpc");
+    const logo=document.querySelector(".logo")
+    const pw=document.querySelector(".pw")
+    const tl =new TimelineMax();
+
+    if($(window).width() < 768)
+{
+    tl.to(sbg,3,{x:'100%'});
+    tl.to(logo,1,{opacity:1},"-=1")
+    tl.to(pw,3,{opacity:1},"-=1");
+    // JavaScript here 
+    // 當視窗寬度小於767px時執行
+} else {
+    tl.to(sbg,3,{x:'100%'});
+    tl.to(mpc,3,{x:'-220%'},"-=4");
+    tl.to(logo,1,{opacity:1},"-=1")
+    tl.to(pw,3,{opacity:1},"-=1");
+}
+
+
+
+
+
+
+    </script>
+   
+    
+    
+</body>
+</html>
