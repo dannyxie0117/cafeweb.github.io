@@ -111,10 +111,10 @@ nav ul li:hover>ul{
 }
 .mainpic #mpc{
     position: absolute;
-    right: -100%;
+    right: 20px;
     top: 110px;
     width: 800px;
-    padding-right: 100px;
+    opacity: 0;
 }
 .pw{
     width: 1000px;
